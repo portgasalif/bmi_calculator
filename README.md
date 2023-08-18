@@ -1,16 +1,17 @@
-# bmi_calculator
 
-A BMI Calculator Flutter project by Alfey
+# BMI Calculator
 
-## Getting Started
+Aplikasi BMI Calculator ini memungkinkan pengguna untuk menghitung Indeks Massa Tubuh (BMI) mereka
+dengan mudah dan cepat. Dengan memasukkan tinggi dan berat badan, aplikasi ini akan menghitung BMI
+pengguna dan memberikan informasi tentang kategori BMI yang sesuai.
 
-This project is a starting point for a Flutter application.
+Fitur-fitur utama dari aplikasi ini meliputi:
 
-A few resources to get you started if this is your first Flutter project:
+- Penghitungan BMI yang akurat dan cepat
+- Informasi tentang kategori BMI yang sesuai
+- Desain yang intuitif dan mudah digunakan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Aplikasi ini dibuat dengan menggunakan Flutter dan dapat dijalankan di perangkat Android dan iOS.
+Dengan aplikasi BMI Calculator ini, pengguna dapat mengetahui kondisi kesehatan mereka dengan mudah
+dan cepat.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

@@ -4,7 +4,14 @@ import 'package:flutter/material.dart';
 import '../constant.dart';
 
 class ResultPage extends StatelessWidget {
-  const ResultPage({super.key});
+  ResultPage(
+      {required this.bmiResult,
+      required this.resultText,
+      required this.interpretation});
+
+  final String bmiResult;
+  final String resultText;
+  final String interpretation;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +28,7 @@ class ResultPage extends StatelessWidget {
               padding: EdgeInsets.all(15),
               alignment: Alignment.bottomLeft,
               child: Text(
-                'Hasilnya',
+                'Hasilnya'.toUpperCase(),
                 style: kTitleTextStyle,
               ),
             ),
@@ -35,15 +42,15 @@ class ResultPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Text(
-                      'Normal',
+                      resultText.toUpperCase(),
                       style: kResultTextStyle,
                     ),
                     Text(
-                      '20.0',
+                      bmiResult,
                       style: kBMITextStyle,
                     ),
                     Text(
-                      'terlalu kurus ',
+                      interpretation,
                       style: kBodyTextStyle,
                       textAlign: TextAlign.center,
                     ),
